@@ -5,7 +5,7 @@ import "fmt"
 //<------抽象层------>
 
 type AbstractFactory interface {
-	CreateFruit()
+	CreateFruit() Fruit
 }
 type Fruit interface {
 	Show()
